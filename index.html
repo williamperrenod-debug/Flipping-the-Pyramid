@@ -5,20 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Info Lit Stats 2024</title>
   <style>
-    /* Remove default body padding & margins, force html to fill screen */
+    /* Reset margins and eliminate scrollbars */
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      overflow: hidden; /* Removes browser scrollbars */
+      overflow: hidden;
+      background-color: #ffffff;
     }
 
-    /* Force iframe to take up 100% of viewport width and height */
+    /* Force full-screen display */
     iframe {
       width: 100vw !important;
       height: 100vh !important;
-      border: 0 !important;
+      border: none !important;
       display: block;
     }
   </style>
@@ -26,8 +27,7 @@
 <body>
 
   <iframe 
-    src="https://datastudio.google.com/embed/reporting/0a33bf30-a686-4f75-af34-1da81a9d6126/page/WXZ9F" 
-    frameborder="0" 
+    src="https://lookerstudio.google.com/embed/reporting/0a33bf30-a686-4f75-af34-1da81a9d6126/page/WXZ9F" 
     allowfullscreen 
     sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
   </iframe>
